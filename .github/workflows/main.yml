@@ -26,6 +26,7 @@ jobs:
       - name: Test Lint OpenAPI action
         uses: ./
         with:
+          github_url: https://raw.git.build.ingka.ikea.com/Sales-Order-Fulfilment/ISOMOFD-S10/master/SOM-API/IKEAGetOrderInfo.yaml?token=GHSAT0AAAAAAAAANT74TPYMQLDKB3JLV7BIZJ3R76Q
           files: |
             examples/openapi-01.yaml
             examples/openapi-03.yaml
